@@ -1,0 +1,6 @@
+com\rajeev\location\service\LocationService.class
+com\rajeev\location\LocationWebApplication.class
+com\rajeev\location\controller\LocationController.class
+com\rajeev\location\entity\Location.class
+com\rajeev\location\repos\LocationReposgatry.class
+com\rajeev\location\service\LocationServiceimpl.class

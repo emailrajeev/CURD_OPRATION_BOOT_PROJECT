@@ -14,7 +14,11 @@ import com.rajeev.location.repos.LocationReposgatry;
 import com.rajeev.location.service.EmailUtil;
 import com.rajeev.location.service.LocationService;
 import com.rajeev.location.service.ReportUtil;
-
+/**
+ * 
+ * @author Rajeev
+ *
+ */
 @Controller
 public class LocationController {
 	@Autowired

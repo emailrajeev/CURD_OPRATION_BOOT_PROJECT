@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.rajeev.location.LocationWebApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 17.976 s <<< FAILURE! - in com.rajeev.location.LocationWebApplicationTests
+contextLoads(com.rajeev.location.LocationWebApplicationTests)  Time elapsed: 0.079 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'locationController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'locationServiceimpl': Unsatisfied dependency expressed through field 'rposgatry'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'locationReposgatry': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.rajeev.location.entity.Location
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'locationServiceimpl': Unsatisfied dependency expressed through field 'rposgatry'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'locationReposgatry': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.rajeev.location.entity.Location
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'locationReposgatry': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.rajeev.location.entity.Location
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.rajeev.location.entity.Location
+
