@@ -11,6 +11,7 @@ public class LocationWebApplicationTests {
 
 	@Test
 	public void contextLoads() {
+       
 	}
 
 }
